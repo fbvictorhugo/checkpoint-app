@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="HourTextView">
+        <attr name="htv_hour" format="string" />
+        <attr name="htv_prediction" format="string" />
+    </declare-styleable>
+
+</resources>
