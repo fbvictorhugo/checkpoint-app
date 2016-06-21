@@ -55,7 +55,7 @@ public class DataSourceFactory {
 
     private Object instaceForInternalStorage(Class dataSourceInterface) {
         if (isSameClass(dataSourceInterface, CheckpointDataSource.class)) {
-            return new CheckpointInternalStorage();
+            return new CheckpointInternalStorage(mContext);
         }
         return null;
     }
