@@ -38,3 +38,17 @@ captures/
 
 # Keystore files
 *.jks
+
+# User-specific configurations
+.idea
+.idea/*
+*.iml
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
