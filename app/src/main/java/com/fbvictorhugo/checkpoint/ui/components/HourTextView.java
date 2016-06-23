@@ -7,7 +7,7 @@ import android.support.v7.widget.AppCompatTextView;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 
-import com.example.fbvictorhugo.checkpoint.R;
+import com.fbvictorhugo.checkpoint.R;
 
 /**
  * By fbvictorhugo on 07/06/16.
@@ -69,8 +69,8 @@ public class HourTextView extends AppCompatTextView {
         }
     }
 
-    public boolean hasHour() {
-        return !TextUtils.isEmpty(mHour);
+    public boolean isHourEmpty() {
+        return TextUtils.isEmpty(mHour);
     }
 
 }

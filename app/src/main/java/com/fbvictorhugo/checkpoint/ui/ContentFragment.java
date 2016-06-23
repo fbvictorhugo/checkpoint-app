@@ -6,7 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.fbvictorhugo.checkpoint.R;
+import com.fbvictorhugo.checkpoint.R;
 
 /**
  * By fbvictorhugo on 06/06/16.

@@ -12,9 +12,9 @@ import java.util.Locale;
  */
 public class Utils {
 
-    public static SimpleDateFormat FORMAT_HOUR = new SimpleDateFormat("HH:mm", Locale.getDefault());
-    public static SimpleDateFormat FORMAT_DATE = new SimpleDateFormat("dd/MM/yyyy", Locale.getDefault());
-    public static SimpleDateFormat FORMAT_DAY_WEEK_EXTENSIVE = new SimpleDateFormat("EEEE", Locale.getDefault());
+    public static final SimpleDateFormat FORMAT_HOUR = new SimpleDateFormat("HH:mm", Locale.getDefault());
+    public static final SimpleDateFormat FORMAT_DATE = new SimpleDateFormat("dd/MM/yyyy", Locale.getDefault());
+    public static final SimpleDateFormat FORMAT_DAY_WEEK_EXTENSIVE = new SimpleDateFormat("EEEE", Locale.getDefault());
 
     public static Gson getGsonConfiguration() {
         return new GsonBuilder()

@@ -13,7 +13,7 @@ import com.fbvictorhugo.checkpoint.utils.SharedPreferencesUtil;
 
 public class CheckpointSharedPrefs implements CheckpointDataSource {
 
-    private SharedPreferencesUtil mPrefsUtil;
+    private final SharedPreferencesUtil mPrefsUtil;
 
     public CheckpointSharedPrefs(Context context) {
         mPrefsUtil = new SharedPreferencesUtil(context);

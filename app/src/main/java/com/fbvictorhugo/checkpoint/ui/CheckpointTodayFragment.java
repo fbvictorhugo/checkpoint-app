@@ -14,7 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.example.fbvictorhugo.checkpoint.R;
+import com.fbvictorhugo.checkpoint.R;
 import com.fbvictorhugo.checkpoint.datasource.CheckpointDataSource;
 import com.fbvictorhugo.checkpoint.datasource.DataSourceCallback;
 import com.fbvictorhugo.checkpoint.datasource.DataSourceFactory;
@@ -160,13 +160,13 @@ public class CheckpointTodayFragment extends Fragment {
 
     @Nullable
     private CheckpointEstate getNextCheckpointHour() {
-        if (!mTextWorkIn.hasHour()) {
+        if (mTextWorkIn.isHourEmpty()) {
             return CheckpointEstate.WORK_IN;
-        } else if (!mTextLunchIn.hasHour()) {
+        } else if (mTextLunchIn.isHourEmpty()) {
             return CheckpointEstate.LUNCH_IN;
-        } else if (!mTextLunchOut.hasHour()) {
+        } else if (mTextLunchOut.isHourEmpty()) {
             return CheckpointEstate.LUNCH_OUT;
-        } else if (!mTextWorkOut.hasHour()) {
+        } else if (mTextWorkOut.isHourEmpty()) {
             return CheckpointEstate.WORK_OUT;
         } else {
             return null;

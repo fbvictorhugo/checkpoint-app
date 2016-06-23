@@ -17,4 +17,5 @@
     <string name="fill_email">android.studio@android.com</string>
     <string name="title_edit">Edit</string>
     <string name="not_implemented_yet">Not implemented yet</string>
+    <string name="profile_picture">Profile picture</string>
 </resources>

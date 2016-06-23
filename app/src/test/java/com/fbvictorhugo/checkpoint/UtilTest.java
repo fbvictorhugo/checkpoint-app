@@ -1,12 +1,8 @@
 package com.fbvictorhugo.checkpoint;
 
-import android.test.suitebuilder.annotation.SmallTest;
-
-import junit.framework.Assert;
-
 import org.junit.Test;
 
-import static junit.framework.Assert.*;
+import static junit.framework.Assert.assertEquals;
 
 /**
  * By fbvictorhugo on 08/06/16.
