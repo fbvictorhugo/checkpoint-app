@@ -5,10 +5,9 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <android.support.v7.widget.AppCompatTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/not_implemented_yet" />
+    <CalendarView
+        android:id="@+id/calendar_calendarview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </LinearLayout>
