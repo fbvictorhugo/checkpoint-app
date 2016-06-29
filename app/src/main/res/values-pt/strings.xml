@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="workload">Carga Horária</string>
+    <string name="daily_workload">Carga de trabalho diária</string>
+    <string name="days_with_hours">Dias com expediente</string>
+    <string name="default_lunch_time">Tempo de almoço padrão</string>
+</resources>

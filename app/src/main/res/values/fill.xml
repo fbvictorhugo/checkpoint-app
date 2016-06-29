@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fill_work_in">09:00</string>
+    <string name="fill_lunch_in">12:00</string>
+    <string name="fill_lunch_out">13:00</string>
+    <string name="fill_work_out">18:00</string>
+    <string name="fill_name">Android Studio</string>
+    <string name="fill_email">android.studio@android.com</string>
+</resources>

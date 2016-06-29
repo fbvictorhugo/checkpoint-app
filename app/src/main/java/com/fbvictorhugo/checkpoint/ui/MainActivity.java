@@ -1,5 +1,6 @@
 package com.fbvictorhugo.checkpoint.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -60,6 +61,10 @@ public class MainActivity extends AppCompatActivity
 
             case R.id.nav_calendar:
                 navigationToCalendarFragment();
+                break;
+
+            case R.id.nav_tools:
+                startActivity(new Intent(this, SettingsActivity.class));
                 break;
 
             default:

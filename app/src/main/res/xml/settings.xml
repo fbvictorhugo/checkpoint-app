@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/workload">
+
+        <MultiSelectListPreference
+            android:defaultValue="@array/daysOfWeekValuesDefault"
+            android:entries="@array/daysOfWeek"
+            android:entryValues="@array/daysOfWeekValues"
+            android:key="@string/key_days_with_hours"
+            android:title="@string/days_with_hours" />
+
+        <EditTextPreference
+            android:defaultValue="8"
+            android:inputType="numberDecimal"
+            android:key="@string/key_daily_workload"
+            android:title="@string/daily_workload" />
+
+        <EditTextPreference
+            android:defaultValue="1"
+            android:inputType="numberDecimal"
+            android:key="@string/key_default_lunch_time"
+            android:title="@string/default_lunch_time" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

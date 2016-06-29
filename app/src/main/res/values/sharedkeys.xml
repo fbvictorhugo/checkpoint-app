@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="key_days_with_hours">days_with_hours</string>
+    <string name="key_daily_workload">daily_workload</string>
+    <string name="key_default_lunch_time">default_lunch_time</string>
+
+</resources>
