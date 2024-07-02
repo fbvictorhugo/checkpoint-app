@@ -1,6 +1,10 @@
 # Check Point App
 O aplicativo é sobre a marcação de ponto pelo funcionário, como um histórico e lembrete de horário para evitar marcações fora do horário.  
 
+#### Telas
+
+|![CheckPoint](prints/CheckpointTodayFragment.png)|![Calendario](prints/CalendarFragment.png)  
+
 ## Finalidade
 - [x] **Estudo**: Este projeto foi criado para fins de aprendizado e prática.
 - [ ] **Curso**: Este projeto é parte de um curso específico.
