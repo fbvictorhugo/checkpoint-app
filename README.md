@@ -14,8 +14,8 @@ O aplicativo é sobre a marcação de ponto pelo funcionário, como um históric
 Com o estudo o foco é criar um padrão de fácil alteração da origem de dados. A construção do `DataSourceFactory` e implementações de várias fontes de dados possibilitaria uma troca de forma fácil entre os vários Data Sources. 
 Além da organização de layout, timers e calendários.
 
-**Construção paralizada:** Emeados de 2016
+## Outras Considerações
+- **Construção paralizada:** Emeados de 2016;
 
-## Badges
-
+### Badges
 [![codebeat badge](https://codebeat.co/badges/97010c8b-5952-4a0a-b09b-f38c6badbe63)](https://codebeat.co/projects/github-com-fbvictorhugo-checkpoint-app)
