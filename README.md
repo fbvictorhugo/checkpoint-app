@@ -9,10 +9,10 @@ O aplicativo é sobre a marcação de ponto pelo funcionário, como um históric
 ## Finalidade
 - [x] **Estudo**: Este projeto foi criado para fins de aprendizado e prática.
 - [ ] **Curso**: Este projeto é parte de um curso específico.
-- [ ] **Projeto Real**: Este projeto é uma aplicação real a ser publicada.
+- [ ] **Projeto Real**: Este projeto é uma aplicação real a ser publicado.
 
-Usado o case acima o foco do estudo é criar um padrão de fácil alteração da origem de dados.
-Com a construção do `DataSourceFactory` e implementações de várias fontes de dados. Além de layout, timers e calendário. 
+Com o estudo o foco é criar um padrão de fácil alteração da origem de dados. A construção do `DataSourceFactory` e implementações de várias fontes de dados possibilitaria uma troca de forma fácil entre os vários Data Sources. 
+Além da organização de layout, timers e calendários.
 
 **Construção paralizada:** Emeados de 2016
 
