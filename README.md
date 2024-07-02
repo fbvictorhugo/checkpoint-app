@@ -9,7 +9,7 @@ O aplicativo é sobre a marcação de ponto pelo funcionário, como um históric
 Usado o case acima o foco do estudo é criar um padrão de fácil alteração da origem de dados.
 Com a construção do `DataSourceFactory` e implementações de várias fontes de dados. Além de layout, timers e calendário. 
 
-**Construção em parada:** 2016
+**Construção paralizada:** Emeados de 2016
 
 ## Badges
 
