@@ -1,9 +1,9 @@
 # Check Point App
-O aplicativo é sobre a marcação de ponto pelo funcionário, como um histórico e lembrete de horário para evitar marcações fora do horário.  
+![ic_launcher](app/src/main/res/mipmap-mdpi/ic_launcher.png) O aplicativo é sobre a marcação de ponto pelo funcionário, como um histórico e lembrete de horário para evitar marcações fora do horário.  
 
 #### Telas
 
-|![CheckPoint](prints/CheckpointTodayFragment.png)|![Calendario](prints/CalendarFragment.png)  
+|![CheckpointTodayFragment](prints/CheckpointTodayFragment.png)|![CalendarFragment](prints/CalendarFragment.png)|![SettingsActivity](prints/SettingsActivity.png)
 
 ## Finalidade
 - [x] **Estudo**: Este projeto foi criado para fins de aprendizado e prática.
